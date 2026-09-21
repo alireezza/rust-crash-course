@@ -1,5 +1,9 @@
-pub fn eq() {
-    todo!();
+pub fn eq(a: &str, b: &str) -> bool {
+    a == b
+}
+fn main() {
+    let result = eq("hello", "hello");
+    println!("Are equal: {}", result);
 }
 
 pub fn add() {
