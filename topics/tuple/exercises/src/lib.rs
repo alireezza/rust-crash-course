@@ -1,6 +1,8 @@
+// Exercise 1 
 pub fn first(t: (bool, u32, char)) -> bool {
-    todo!();
+    t.0
 }
+
 
 pub fn last(t: (bool, u32, char)) -> char {
     todo!();
