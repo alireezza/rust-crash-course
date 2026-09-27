@@ -12,7 +12,9 @@ fn main() {
 pub fn first_3(s: &[u32]) -> &[u32] { 
     &s[..3]
 }
-
-pub fn last_3(s: &[u32]) -> &[u32] {
-    todo!();
+// Exercise 3 
+// Exercise 3 
+pub fn last_3(s: &[u32]) -> &[u32] { 
+    let n = s.len(); 
+    &s[n- 3..]
 }
