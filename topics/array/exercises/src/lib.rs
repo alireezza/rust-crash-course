@@ -8,8 +8,9 @@ fn main() {
     println!("arr[0]: {}", arr[0]);
 }
 
-pub fn first_3(s: &[u32]) -> &[u32] {
-    todo!();
+// Exercise 2 
+pub fn first_3(s: &[u32]) -> &[u32] { 
+    &s[..3]
 }
 
 pub fn last_3(s: &[u32]) -> &[u32] {
