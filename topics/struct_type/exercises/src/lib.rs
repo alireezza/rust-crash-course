@@ -4,6 +4,9 @@ pub struct Account {
     pub balance: u32, 
 } 
 
-pub fn new(address: String) -> Account {
-    todo!();
+pub fn new(address: String) -> Account { 
+    Account { 
+        address, 
+        balance: 0, 
+    } 
 }
